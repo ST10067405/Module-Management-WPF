@@ -1,0 +1,24 @@
+﻿<Window x:Class="POEPart2.Landing"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POEPart2"
+        mc:Ignorable="d"
+        Title="Landing" Height="256" Width="318"
+        WindowStartupLocation="CenterScreen"
+        Background="LightSteelBlue"
+        ResizeMode="CanMinimize"
+        Icon="/Images/icon.ico">
+
+    <Grid>
+        <Label Content="Module Management Application" Background="SteelBlue" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Top" Width="318" Height="43"/>
+        <GroupBox Margin="5,50,5,5">
+            <Grid>
+                <Button x:Name="btnLogin" FontSize="18" Content="Login" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,28,0,0" VerticalAlignment="Top" Width="110" Click="btnLogin_Click" Height="28"/>
+                <Button x:Name="btnRegister" FontSize="18" Content="Register" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Width="110" Click="btnRegister_Click" Height="28" Margin="0,73,0,0"/>
+                <Label Content="Developed by: Jaime Futter" FontSize="14" Height="30" VerticalContentAlignment="Bottom" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="201"/>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>
